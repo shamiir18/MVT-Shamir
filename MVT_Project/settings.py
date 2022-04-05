@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'familia'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'MVT_Project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:\\Users\\Shamir Uriel Jalif\\Desktop\\Mi_Primer_MVT\\MVT_Shamir\\MVT_Project\\familia\\migrations'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
